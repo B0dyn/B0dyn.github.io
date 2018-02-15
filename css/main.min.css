@@ -389,8 +389,7 @@ body {
 h1 {
   font-family: "DINPro-Medium", sans-serif;
   font-size: 3.75em;
-  width: 100%;
-  margin: 0 auto; }
+  width: 100%; }
 
 .underline {
   border-bottom: 2px solid #c4c4c4;
@@ -1804,6 +1803,8 @@ textarea:-ms-input-placeholder {
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
+  h1.header-title {
+    margin: 0 auto; }
   .main-line .contact-box {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1973,7 +1974,9 @@ textarea:-ms-input-placeholder {
               flex-wrap: wrap;
       font-size: 1em; }
     .column .nav-list-item {
-      margin: 0 10px; } }
+      margin: 0 10px; }
+  .full-news .news-list--item.target .news-list--item__text {
+    padding: 0; } }
 
 /*==========  Mobile First  ==========*/
 /* Custom, iPhone Retina */
